@@ -1,0 +1,6 @@
+# dsh bundle patch: inserts this plugin into a profile's layer stack.
+# Kept in the package (not the profile's cordis.patch.yml) so that Harness
+# updates, which rewrite the profile patch file, cannot drop the plugin.
+- insert:
+    - id: balance-badge
+      name: '@bayan1377/dsh-balance-badge'
