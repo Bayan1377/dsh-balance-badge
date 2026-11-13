@@ -1,6 +1,6 @@
 {
   "name": "@bayan1377/dsh-balance-badge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Always-visible DeepSeek account balance in the DSH sidebar footer, refreshed on demand and never blocking startup",
   "type": "module",
   "main": "lib/index.js",
@@ -41,6 +41,14 @@
     "sidebar",
     "badge"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bayan1377/dsh-balance-badge.git"
+  },
+  "homepage": "https://github.com/Bayan1377/dsh-balance-badge#readme",
+  "bugs": {
+    "url": "https://github.com/Bayan1377/dsh-balance-badge/issues"
+  },
   "author": "bayan1377",
   "license": "MIT"
 }
